@@ -1,1 +1,77 @@
+nav {
+	height: 60px;
+	background-color: rgba(0,0,0,.5);
+	position: relative;
+	padding: 10px 20px;
+}
 
+.logo {
+	height: 40px;
+	width: auto;
+	border-radius: 20px;
+	border: 1px solid rgb(15,15,15);
+	position: absolute;
+	left: 60px;
+}
+
+.divider {
+	border-right: 2px solid rgba(255,255,255,.2);
+	padding: 0 10px;
+}
+
+.nav-links {
+	text-align: left;
+	padding-left: 90px;
+	list-style-type: none;
+	position: relative;
+	margin: 9px;
+}
+
+.nav-link {
+	padding-left: 10px;
+	display: inline-block;
+}
+
+.nav-link a {
+	color: white;
+}
+
+main {
+    top: 50%;
+    height: 500px;
+    margin-top: 15%;
+}
+
+.green-box {
+	position: relative;
+	border: 10px green dotted;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+.bg-image {
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	/* Preserve aspet ratio */
+  	min-width: 100%;
+  	min-height: 100%;
+  	z-index: -10;
+}
+
+.spacecat {
+	position: absolute;
+	top: -100px;
+	left: -100px;
+	height: 200px;
+	width: 200px;
+}
+
+.spacedog {
+	position: absolute;
+	bottom: -100px;
+	right: -100px;
+	height: 200px;
+	width: 200px;
+}
